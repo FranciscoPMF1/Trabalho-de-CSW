@@ -1,0 +1,58 @@
+nav {
+    background: #020617;
+    padding: 15px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #cbd5e1;
+}
+nav ul li a:hover {
+    color: #67e8f9
+}
+
+#home {
+    
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    
+}
+
+.fotos img {
+   width: 400px;
+   height: 300px; 
+   object-fit: cover;
+   border-radius: 20px;
+   box-shadow: 0 5px 15px rgba(150, 20,70,0.25);
+   transition: trnsform 0.3s ease;
+}
+
+.fotos img:hover {
+    transform: scale(1.05);
+}
+
+body {
+    background: #0f172a;
+    margin: 0
+}
