@@ -91,9 +91,18 @@ body {
     text-align: center;
 }
 
+#sobre-mim h2 { 
+    font-size: 45px;
+}
+
+#sobre-mim p {
+    font-size: 23px;
+}
+
 #sobre-mim table {
-   margin: 0 auto;
-   display: inline-block;
+    font-size: 23px;
+    margin: 0 auto;
+    display: inline-block;
 
    th{
     text-align: center;
