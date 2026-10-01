@@ -118,6 +118,11 @@ body {
     text-align: center;
     color:#CBD5E1
 }
+
+#contato h2 {
+    font-size: 45px;
+    }
+
 form {
     text-align: center;
     color: #CBD5E1;
@@ -125,4 +130,16 @@ form {
     flex-direction: column;
     max-width: 400px;
     margin: auto;
+    padding: 50px;
+}
+
+#rodape {
+    background-color: #cbd5e1;
+    width: 100%;
+    padding: 15px;
+}
+
+footer p{
+    color: #0f172a;
+    font-size: 20px;
 }
